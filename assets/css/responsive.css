@@ -1,0 +1,150 @@
+@media (max-width: 1199px) {
+    .container {
+        width: 991px;
+    }
+
+    .banner-details h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .featured-text h2 {
+        font-size: 30px;
+    }
+    .cta-text h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        top: 20px;
+        padding: 0 20px;
+    }
+    .container {
+        max-width: 580px;
+    }
+
+    .mainmenu {
+        display: none;
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner .container {
+        flex-direction: column;
+    }
+
+    .banner {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 100px;
+    }
+
+    .banner .banner-details,
+    .banner .banner-thumbnail {
+        width: 100%;
+    }
+
+    .banner-details {
+        margin-bottom: 50px;
+    }
+
+    footer img {
+        width: 100%;
+    }
+
+    .responsive-menu {
+        color: #fff;
+        font-size: 20px;
+        display: block;
+    }
+    .banner-details h1 {
+        font-size: 36px;
+    }
+    .players-section {
+        margin-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .players-section {
+        margin-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .featured-section {
+        margin: 60px 0;
+    }
+
+    .featured-section {
+        padding: 0 15px;
+    }
+
+    .featured-section .container {
+        flex-direction: column;
+    }
+
+    .featured-section .container > div {
+        width: 100%;
+    }
+
+    .featured-text {
+        margin-bottom: 30px;
+    }
+
+    .featured-text h2 {
+        font-size: 30px;
+    }
+
+    .cta-section {
+        padding: 50px 0;
+    }
+
+    .cta-text h2 {
+        margin-top: 0;
+        font-size: 25px;
+    }
+
+    .cta-text h2 br {
+        display: none;
+    }
+
+    .cta-text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    section.contact-section .container {
+        flex-direction: column;
+    }
+
+    section.contact-section .container > div {
+        width: 100%;
+        margin: 0;
+    }
+
+    section.contact-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .cta-section {
+        margin-bottom: 50px;
+    }
+
+    footer img {
+        max-width: 285px;
+    }
+}
